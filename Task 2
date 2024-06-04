@@ -1,0 +1,47 @@
+encryption.py-C:/Users/DELL/AppData/Local/Programs/Python/Python311/encryption.py (3.115)
+
+File Edit Format Run Options Window Help
+
+dnf caesar cipher (text, shift):
+
+encrypted_text= for char in text:
+
+If char.isalpha():
+
+char.isupper():
+
+encrypted text += chr((ord(char) 65+ shift) 26+65)
+
+else: encrypted text += chr((ord(char) 97 shift) 26973
+
+else: encrypted text += char
+
+return encrypted text
+
+def encrypt (text, shift): return caesar cipher(text, shift)
+
+def decrypt(text, shift): return caesar cipher(text, shift)
+
+choice input ("Do you want to encrypt of decrypt? (e/d): ").lower()
+
+def main():
+
+plaintext input("Enter the text to encrypt: ") shift int(input("Enter the shift value: ")) encrypted text encrypt (plaintext, shift)
+
+it choice
+
+print("Encrypted text:", encrypted text) elif choice'd':
+
+ciphertext input("Enter the text to decrypt: ") shift int(input("Enter the shift value: ")) decrypted text decrypt (ciphertext, shift)
+
+print("Decrypted text:", decrypted text)
+
+else: print("Invalid choice. Please enter 'e for encryption or 'd' for decryption.")
+
+name main()
+
+"main":
+
+Tomorrow's high Near record
+
+Q Search
